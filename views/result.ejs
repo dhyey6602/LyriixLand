@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>LyriixLand</title>
+        <link src="/style.css" rel="stylesheet">
+        <link rel = "icon" href = "https://i.ibb.co/Pxyq0WR/Logo-Minified.png" type = "image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+        <style>
+            body{
+                background:linear-gradient(45deg,#610bfc,#ff37cc);
+                color: white;
+                text-align: center;
+                margin: 0;
+                font-family: 'Source Serif Pro', serif;
+                padding: 20px; 
+            }
+            hr{
+                width: 40%;
+                border: white 2px solid;
+            }
+            .lyrics-body{
+                font-size: 20px;
+                font-weight: 600;
+            }
+            h1{
+                letter-spacing: 3px;
+            }
+        </style>
+    </head>
+</html>
+<body>
+    <h1>Artist: <%= artist %></h1>
+    <h1>Song: <%= song %></h1>
+    <hr>
+    <pre class="lyrics-body">
+        <%= lyrics %>
+    </pre>
+    <hr>
+    <footer>
+        <p>&copy;-2019 reserved by Dhyey Gami with help of lyric-api</p>
+        <p>Do not use for commercial use.</p>
+    </footer>
+</body>

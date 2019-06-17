@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>LyriixLand</title>
+        <link src="/style.css" rel="stylesheet">
+        <link rel = "icon" href = "https://i.ibb.co/Pxyq0WR/Logo-Minified.png" type = "image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style>
+        body{
+            background:linear-gradient(45deg,#6ABd0d,#40ff9b);
+            font-family: 'Source Serif Pro', serif;
+            color: white;
+            margin-top: 1%;
+        }
+        .logo{
+                width: 80%;
+                height: 60%;
+                margin: 8% 10%;
+                border-radius: 10%;
+        }
+        h1{
+            letter-spacing: 5px; 
+            text-align: center; 
+        }
+        form{
+            margin:25% 10%; 
+        }
+        form label input {
+            font: 18px Helvetica, Arial, sans-serif;
+            box-sizing: border-box;
+            display: block;
+            border: none;
+            padding: 20px;
+            width: 300px;
+            margin-bottom: 20px;
+            font-size: 18px;
+            outline: none;
+        }
+        .submitBtn:hover{
+            cursor: pointer;
+        }
+        hr{
+                width: 30%;
+                border: white 2px solid;
+            }
+        footer{
+            text-align: center;
+        }
+        </style>
+    </head>
+</html>
+<body>
+    <h1>Lyriixland</h1>
+    <hr>
+    <div class="row">
+    <div class="col col-lg-7">
+        <img src="https://i.ibb.co/5Mq8Z4f/Logo.png" alt="LyriixLand" class="logo">
+    </div>
+    <div class="col col-lg-5">
+    <form action="/results" method="GET" class="form">
+        <label for="SongName">
+            <input type="text" name="SongName" placeholder="Song Name">
+        </label>
+        <br>
+        <label for="ArtistName">
+            <input type="text" name="ArtistName" placeholder="Artist Name">
+        </label>
+        <br>
+        <label for="submit">
+        <input type="submit" value="Find" style="background-color: mediumseagreen;" class="submitBtn">
+        </label>
+    </form>
+    </div>
+    </div>
+    <hr>
+    <footer>
+        <p>&copy;-2019 reserved by Dhyey Gami with help of lyric-api</p>
+        <p>Do not use for commercial use.</p>
+    </footer>
+</body>
+
