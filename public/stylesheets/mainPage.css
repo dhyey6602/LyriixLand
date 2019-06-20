@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(45deg, #6ABd0d, #40ff9b);
+    font-family: 'Source Serif Pro', serif;
+    color: white;
+    margin-top: 1%;
+}
+
+.logo {
+    width: 80%;
+    height: 60%;
+    margin: 8% 10%;
+    border-radius: 10%;
+}
+
+h1 {
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+form {
+    margin: 25% 10%;
+}
+
+form label input {
+    font: 18px Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    display: block;
+    border: none;
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    outline: none;
+}
+
+.submitBtn:hover {
+    cursor: pointer;
+}
+
+hr {
+    width: 30%;
+    border: white 2px solid;
+}
+
+footer {
+    text-align: center;
+}
