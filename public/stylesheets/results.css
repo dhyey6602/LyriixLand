@@ -1,5 +1,8 @@
 body {
-    background: linear-gradient(45deg, #610bfc, #ff37cc);
+    background: url("../62751-full_dark-music-wallpapers-wallpaper-cave.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
     text-align: center;
     margin: 0;

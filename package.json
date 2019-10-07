@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "ejs": "^2.6.2",
+    "nodemon": "^1.19.3",
     "request": "^2.88.0"
   }
 }
