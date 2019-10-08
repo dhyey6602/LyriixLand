@@ -1,13 +1,12 @@
 body {
-    background: linear-gradient(45deg, #6ABd0d, #40ff9b);
-    font-family: 'Source Serif Pro', serif;
+    background: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     margin-top: 1%;
 }
 
 .logo {
-    width: 80%;
-    height: 60%;
+    height: 80%;
     margin: 8% 10%;
     border-radius: 10%;
 }
@@ -23,6 +22,7 @@ form {
 
 form label input {
     font: 18px Helvetica, Arial, sans-serif;
+    border-radius: 24px;
     box-sizing: border-box;
     display: block;
     border: none;
