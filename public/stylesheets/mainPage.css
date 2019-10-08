@@ -1,4 +1,5 @@
 body {
+    background: black;
     background: url("../photo-1506157786151-b8491531f063.jpg");
     font-family: 'Source Serif Pro', serif;
     color: white;
@@ -6,8 +7,13 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.logo {
+    height: 80%;
+    margin: 8% 10%;
+    border-radius: 10%;
 .nav-main{
-    background: rgba(255, 255,255,0.5)
+    background: rgba(255, 255,255,0.5);
 }
 h1 {
     letter-spacing: 5px;
@@ -20,6 +26,7 @@ form {
 
 form label input {
     font: 18px Helvetica, Arial, sans-serif;
+    border-radius: 24px;
     box-sizing: border-box;
     display: block;
     border: none;
@@ -41,4 +48,4 @@ hr {
 
 footer {
     text-align: center;
-}
+}ù
