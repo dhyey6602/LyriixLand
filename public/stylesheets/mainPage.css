@@ -1,16 +1,20 @@
 body {
     background: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url("../photo-1506157786151-b8491531f063.jpg");
+    font-family: 'Source Serif Pro', serif;
     color: white;
-    margin-top: 1%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .logo {
     height: 80%;
     margin: 8% 10%;
     border-radius: 10%;
+.nav-main{
+    background: rgba(255, 255,255,0.5);
 }
-
 h1 {
     letter-spacing: 5px;
     text-align: center;
@@ -44,4 +48,4 @@ hr {
 
 footer {
     text-align: center;
-}
+}ù
