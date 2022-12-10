@@ -9,7 +9,7 @@
   "author": "Dhyey Gami",
   "license": "ISC",
   "devDependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "dependencies": {
     "ejs": "^2.6.2",
